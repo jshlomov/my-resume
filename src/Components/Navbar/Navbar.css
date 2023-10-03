@@ -9,7 +9,7 @@ header {
 .Navbar {
   width: 100%;
   margin: 0 auto;
-  position: absolute;
+  position: fixed;
   transition: opacity 1s linear;
   -webkit-transition: opacity 1s linear;
   -moz-transition: opacity 1s linear;
@@ -41,7 +41,14 @@ nav a:hover {
 @media screen and (min-width: 768px) {
   .Navbar {
     display: block;
+    margin: 0 auto;
+    position: relative;
+    transition: opacity 0s linear;
+    -webkit-transition: opacity 0s linear;
+    -moz-transition: opacity 0s linear;
+    -o-transition: opacity 0s linear;
   }
+
   nav ul {
     display: flex;
     justify-content: space-around;

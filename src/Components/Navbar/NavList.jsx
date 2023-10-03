@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import ContactDetails from '../contactDetails/contactDetails'
 
 const NavList = ({ open }) => {
 
@@ -12,12 +13,12 @@ const NavList = ({ open }) => {
   return (
     <div
       className="Navbar"
-      style={{ opacity: open || windowWidth > 768 ? "1" : "0"}}
+      style={{ opacity: open ? "0.89" : windowWidth > 768 ? "1" : "0"}}
     >
       <nav>
         <ul>
           <li>
-            <a href=".Contact-details">Contact details</a>
+            <a href=".contactCard" >Contact details</a>
           </li>
           <li>
             <a href="">Summary</a>
