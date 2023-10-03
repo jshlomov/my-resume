@@ -9,6 +9,11 @@ header {
 .Navbar {
   width: 100%;
   margin: 0 auto;
+  position: absolute;
+  transition: opacity 1s linear;
+  -webkit-transition: opacity 1s linear;
+  -moz-transition: opacity 1s linear;
+  -o-transition: opacity 1s linear;
 }
 
 

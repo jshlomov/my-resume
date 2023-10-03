@@ -12,7 +12,7 @@ const NavList = ({ open }) => {
   return (
     <div
       className="Navbar"
-      style={{ display: open || windowWidth > 768 ? "block" : "none"}}
+      style={{ opacity: open || windowWidth > 768 ? "1" : "0"}}
     >
       <nav>
         <ul>
