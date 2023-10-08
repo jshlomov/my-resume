@@ -10,9 +10,19 @@ const NavList = ({ open }) => {
   };
   window.addEventListener("resize", handleResize, false);
 
+  const [sticky, setSticky] = useState(false);
+
+  useEffect( () => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 75);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  });
+
   return (
     <div
-      className="Navbar"
+      className={sticky? "NavbarSticky" : "Navbar"}
       style={{ opacity: open ? "0.89" : windowWidth > 768 ? "1" : "0"}}
     >
       <nav>

@@ -10,10 +10,15 @@ header {
   width: 100%;
   margin: 0 auto;
   position: fixed;
-  transition: opacity 1s linear;
-  -webkit-transition: opacity 1s linear;
-  -moz-transition: opacity 1s linear;
-  -o-transition: opacity 1s linear;
+  transition: opacity 0.5s linear;
+}
+
+.NavbarSticky {
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  transition: opacity 0.5s linear;
 }
 
 
