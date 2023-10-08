@@ -1,3 +1,7 @@
+Working progress project
+in the first steps
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
