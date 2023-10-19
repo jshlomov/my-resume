@@ -2,24 +2,7 @@ import React, { useState, useEffect } from "react";
 import ContactDetails from '../contactDetails/contactDetails'
 import { Link } from "react-router-dom";
 
-const NavList = ({ open }) => {
-
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
-  const handleResize = () => {
-    setWindowWidth(window.innerWidth);
-    console.log(windowWidth);
-  };
-  window.addEventListener("resize", handleResize, false);
-
-  const [sticky, setSticky] = useState(false);
-
-  useEffect( () => {
-    const handleScroll = () => {
-      setSticky(window.scrollY > 75);
-    };
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  });
+const NavList = () => {
 
   return (
     <div className="Navbar">
