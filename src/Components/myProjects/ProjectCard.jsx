@@ -3,7 +3,7 @@ import "./ProjectCard.css";
 
 function ProjectCard(props) {
   return (
-    <div className="ProCardContainer">
+    <div className="ProCardContainer" onClick={()=> window.open(props.link, "_blank")}>
       <div
         className="bgImage"
         style={{
@@ -12,7 +12,9 @@ function ProjectCard(props) {
         }}
       ></div>
       <div className="ProCardTextContainer">
-        <h2>{props.title}</h2>
+        <h2>
+          {props.title}
+        </h2>
         <p>{props.description}</p>
       </div>
     </div>

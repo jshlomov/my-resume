@@ -1,14 +1,15 @@
 .ProjectsWrapper {
   min-height: 500px;
-  background: rgb(68, 68, 68);
-  background: linear-gradient(
-    90deg,
-    rgba(68, 68, 68, 1) 0%,
-    rgba(102, 102, 102, 1) 100%
-  );
-
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 2%;
+}
+
+.ProjectsWrapper header {
+  width: 100%;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px;
 }

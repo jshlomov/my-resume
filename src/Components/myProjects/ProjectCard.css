@@ -2,7 +2,6 @@
   padding: 20px;
   height: 500px;
   position: relative;
-  /* min-width: 500px; */
   flex-basis: 550px;
   flex-grow: 1;
 }
@@ -26,15 +25,19 @@
 
 .ProCardContainer .ProCardTextContainer h2 {
   padding-bottom: 20px;
-  font-size: 40px;
+  font-size: 45px;
 }
 
 .ProCardContainer .ProCardTextContainer p {
   display: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /* hover types */
+
+.ProCardContainer:hover {
+  cursor: pointer;
+}
 
 .ProCardContainer:hover .bgImage {
   filter: blur(8px);
@@ -45,5 +48,19 @@
 }
 
 .ProCardContainer:hover h2 {
-    font-size: 28px;
+  font-size: 35px;
+}
+
+@media screen and (max-width: 768px) {
+  .ProCardContainer .ProCardTextContainer h2 {
+    font-size: 38px;
+  }
+  .ProCardContainer:hover h2 {
+    font-size: 30px;
+  }
+
+  .ProCardContainer:hover p {
+    display: block;
+    font-size: 20px;
+  }
 }

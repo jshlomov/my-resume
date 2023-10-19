@@ -3,11 +3,13 @@ import "./Projects.css";
 import ProjectCard from "./ProjectCard";
 import DroneImg from "../../imgs/ProjectsImgs/drone2.png";
 import Pro2Img from "../../imgs/ProjectsImgs/project2.png";
+import carSystem from "../../imgs/ProjectsImgs/chiledInCar2.jpeg";
 
 
 function Projects() {
   return (
-    <div className="ProjectsWrapper">
+    <div className="ProjectsWrapper colorTwo">
+      <header>My projects</header>
       <ProjectCard
         title="Real-time Drone Delivery `Management Solution (C#, .NET, WPF):"
         description="Developed a real-time delivery system management solution using the three-layer model
@@ -16,6 +18,7 @@ function Projects() {
         Incorporated important programming principles like SOLID, Design Patterns, OOP &
         OOD, multithreading, and version control with GitHub."
         image={DroneImg}
+        link="https://github.com/jshlomov/Drones-Delivery"
       />
 
       <ProjectCard
@@ -26,16 +29,18 @@ function Projects() {
         Incorporated principles of software engineering, OOP & OOD, Design Patterns, SOLID,
         and Test-driven Development (TDD)."
         image={Pro2Img}
+        link="https://github.com/jshlomov/3D-Graphic-Scene-Modeling-Solution"
       />
 
       <ProjectCard
-        title="Real-time Drone Delivery `Management Solution (C#, .NET, WPF):"
+        title="A warning system to prevent children from being left in the car"
         description="Developed a real-time delivery system management solution using the three-layer model
               architecture.
               Implemented a user interface for Windows systems (WPF) and utilized language tools.
               Incorporated important programming principles like SOLID, Design Patterns, OOP &
               OOD, multithreading, and version control with GitHub."
-        image={DroneImg}
+        image={carSystem}
+        link="https://github.com/jshlomov/Child-safety-in-the-car"
       />
     </div>
   );
