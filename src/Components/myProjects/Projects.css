@@ -1,0 +1,9 @@
+.ProjectsWrapper {
+  min-height: 500px;
+  background: rgb(51, 51, 51);
+  background: linear-gradient(
+    90deg,
+    rgba(51, 51, 51, 1) 0%,
+    rgba(85, 85, 85, 1) 84%
+  );
+}

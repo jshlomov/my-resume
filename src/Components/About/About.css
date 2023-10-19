@@ -1,0 +1,72 @@
+.About {
+  min-height: 580px;
+  background: rgb(151, 144, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(151, 144, 151, 1) 0%,
+    rgba(235, 235, 213, 1) 100%
+  );
+  padding-top: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About .Container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.About .Container h1 {
+  font-size: 42px;
+}
+
+.About .Container p {
+  text-align: center;
+  padding: 5px 10px 5px 10px;
+  max-width: 475px;
+}
+
+.About .myPicture {
+  height: 450px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1150px) {
+  .About {
+    padding-top: 150px;
+  }
+
+  .About .Container p {
+    max-width: 550px;
+    padding: 5px;
+  }
+
+}
+
+@media screen and (min-width: 1150px) {
+  .About {
+    display: block;
+    padding-top: 150px;
+    position: relative;
+  }
+
+  .About .Container {
+    display: block;
+    position: absolute;
+    left: 10%;
+  }
+
+  .About .Container p {
+    padding: 5px;
+    text-align: start;
+    max-width: 550px;
+  }
+  .About .myPicture {
+    position: absolute;
+    right: 5%;
+    bottom: 0;
+  }
+}

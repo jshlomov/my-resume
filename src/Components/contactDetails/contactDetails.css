@@ -1,7 +1,13 @@
 .wrapper {
   display: flex;
   padding: 25px;
-  background-color: #f3f5f6;
+  /* background-color: #f3f5f6; */
+  background: rgb(151, 144, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(151, 144, 151, 1) 0%,
+    rgba(235, 235, 213, 1) 100%
+  );
   justify-content: center;
 }
 
@@ -9,16 +15,14 @@
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
-  /* box-shadow: 1px 1px 5px 3px rgba(0, 0.1, 0.1, 0.1);
-  border-radius: 10px; */
-  max-width: 1200px;
+  max-width: 1400px;
 }
 
 .contactCard {
   display: flex;
   justify-content: start;
   align-items: center;
-  flex: 1 0 260px;
+  flex: 1 0 350px;
   margin: 9px;
   min-height: 70px;
   background-color: #eee;
@@ -39,8 +43,6 @@
   margin-right: 15px;
 }
 
-@media screen and (min-width: 850px) and (max-width: 1240px) {
-  .contactCard {
-    flex-basis: 372.5px;
-  }
+@media screen and (min-width: 768) {
+
 }

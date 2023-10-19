@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import ContactDetails from '../contactDetails/contactDetails'
+import { Link } from "react-router-dom";
 
 const NavList = ({ open }) => {
 
@@ -21,17 +22,14 @@ const NavList = ({ open }) => {
   });
 
   return (
-    <div
-      className={sticky? "NavbarSticky" : "Navbar"}
-      style={{ opacity: open ? "0.89" : windowWidth > 768 ? "1" : "0"}}
-    >
+    <div className="Navbar">
       <nav>
         <ul>
-          <li>
-            <a href=".contactCard" >Contact details</a>
+        <li>
+            <a href="">About me</a>
           </li>
           <li>
-            <a href="">Summary</a>
+            <a href="">Contact details</a>
           </li>
           <li>
             <a href="">Education</a>

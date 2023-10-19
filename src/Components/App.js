@@ -1,13 +1,15 @@
 import './App.css';
 import Navbar from './Navbar/Navbar';
 import ContactDetails from './contactDetails/contactDetails';
-import Pressentation from './Pressentetion/Pressentation';
+import About from './About/About';
+import Projects from './myProjects/Projects';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Pressentation />
+      <About />
+      <Projects />
       <ContactDetails />
     </div>
   );

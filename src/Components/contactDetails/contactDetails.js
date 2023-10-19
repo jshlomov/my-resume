@@ -9,9 +9,7 @@ function ContactDetails(props) {
   const linkedinLink = "https://www.linkedin.com/in/jonatan-shlomov/";
   const githubLink = "https://github.com/jshlomov";
   const whatsappLink = "https://wa.me/+972583250298";
-  const mailLink = 
-  
-        "mailto:jonatanshv@gmail.com";
+  const mailLink = "mailto:jonatanshv@gmail.com";
 
   return (
     <div className="wrapper Contact-details">
