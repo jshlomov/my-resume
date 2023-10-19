@@ -4,7 +4,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="About">
+    <div className="About colorOne">
       <div className="Container">
         <h1>Welcome!</h1>
         <p>

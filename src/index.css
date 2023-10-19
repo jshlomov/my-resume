@@ -1,5 +1,43 @@
 * {
-    /* font-family: Verdana; */
-    font-family: 'Exo 2', sans-serif;
-    margin: 0;
+  /* font-family: Verdana; */
+  font-family: "Exo 2", sans-serif;
+  margin: 0;
+}
+
+.colorOne {
+  background: rgb(151, 144, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(151, 144, 151, 1) 0%,
+    rgba(235, 235, 213, 1) 100%
+  );
+  color: black;
+  filter: drop-shadow(0.05em 0.05em white);
+}
+
+.colorOne h1,
+.colorOne h2,
+.colorOne header,
+.colorOne p {
+  color: black;
+  filter: drop-shadow(0.05em 0.05em white);
+}
+
+.colorTwo {
+  background: rgb(68, 68, 68);
+  background: linear-gradient(
+    90deg,
+    rgba(68, 68, 68, 1) 0%,
+    rgba(102, 102, 102, 1) 100%
+  );
+  color: black;
+  filter: drop-shadow(0.05em 0.05em white);
+}
+
+.colorTwo h1,
+.colorTwo h2,
+.colorTwo header,
+.colorTwo p {
+  color: white;
+  filter: drop-shadow(0.05em 0.05em black);
 }
