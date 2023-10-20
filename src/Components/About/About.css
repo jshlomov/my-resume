@@ -5,15 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  /*
-  the color in the index
-  background: rgb(151, 144, 151);
-  background: linear-gradient(
-  90deg,
-  rgba(151, 144, 151, 1) 0%,
-  rgba(235, 235, 213, 1) 100%
-  ); */
 }
 
 .About .Container {
@@ -25,7 +16,6 @@
 
 .About .Container h1 {
   font-size: 42px;
-  /* filter: drop-shadow(0.05em 0.05em white); */
 }
 
 .About .Container p {
@@ -33,16 +23,15 @@
   padding: 5px 10px 5px 10px;
   max-width: 475px;
   font-size: 18px;
-  /* filter: drop-shadow(0.05em 0.05em white); */
 }
 
 .About .myPicture {
   height: 450px;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1150px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .About {
-    padding-top: 130px;
+    padding-top: 150px;
   }
 
   .About .Container p {
@@ -51,10 +40,10 @@
   }
 }
 
-@media screen and (min-width: 1150px) {
+@media screen and (min-width: 1200px) {
   .About {
     display: block;
-    padding-top: 130px;
+    padding-top: 150px;
     position: relative;
   }
 
@@ -67,7 +56,7 @@
   .About .Container p {
     padding: 5px;
     text-align: start;
-    max-width: 570px;
+    max-width: 620px;
   }
   .About .myPicture {
     position: absolute;

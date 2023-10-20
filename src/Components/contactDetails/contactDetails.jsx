@@ -12,7 +12,7 @@ function ContactDetails(props) {
   const mailLink = "mailto:jonatanshv@gmail.com";
 
   return (
-    <div className="wrapper Contact-details">
+    <div className="wrapper bgColorOne fontColorOne">
       <div className="wrapperCards">
         <ContactDetailsCard
           title="Gmail: jonatanshv@gmail.com"
@@ -20,7 +20,7 @@ function ContactDetails(props) {
           link={mailLink}
         />
         <ContactDetailsCard
-          title="WhatsApp: +972583250298"
+          title="WhatsApp: +972-583250298"
           imge={phonePic}
           link={whatsappLink}
         />

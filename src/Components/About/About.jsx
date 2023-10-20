@@ -4,9 +4,9 @@ import React from "react";
 
 function About() {
   return (
-    <div className="About colorOne">
+    <div className="About bgColorOne">
       <div className="Container">
-        <h1>Welcome!</h1>
+        <h1 className="fontColorOne">Welcome!</h1>
         <p>
           Hello, and welcome to my corner of the internet! I am Yonatan Shlomov,
           a final year computer science student with a passion for technology,

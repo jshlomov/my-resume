@@ -8,7 +8,7 @@ function Navbar() {
   return (
     <div className="NavContainer">
       <header>Yonatan Shlomov</header>
-      <NavList open={open} />
+      <NavList open={open} click={setOpen} />
     </div>
   );
 }

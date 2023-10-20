@@ -5,10 +5,10 @@ import DroneImg from "../../imgs/ProjectsImgs/drone2.png";
 import Pro2Img from "../../imgs/ProjectsImgs/project2.png";
 import carSystem from "../../imgs/ProjectsImgs/chiledInCar2.jpeg";
 
-
 function Projects() {
+  //TODO - לקצר את התיאורים ממש ארוך ויוצא מהריבוע
   return (
-    <div className="ProjectsWrapper colorTwo">
+    <div className="ProjectsWrapper bgColorTwo fontColorTwo">
       <header>My projects</header>
       <ProjectCard
         title="Real-time Drone Delivery `Management Solution (C#, .NET, WPF):"
