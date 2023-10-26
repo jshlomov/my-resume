@@ -13,23 +13,23 @@
   opacity: 0.95;
 }
 
-.Navbar {
+.Hamburger {
+  position: absolute;
+  top: 22px;
+  right: 5%;
+  cursor: pointer;
+}
+
+.NavbarList {
+  list-style-type: none;
+  padding: 0;
+  background-color: #333;
+  opacity: 0.95;
   width: 100%;
   margin: 0 auto;
 }
 
-
-.Navbar nav {
-  background-color: #333;
-  opacity: 0.95;
-}
-
-.Navbar nav ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.Navbar nav a {
+.NavbarList a {
   text-align: center;
   text-decoration: none;
   color: #fff;
@@ -37,25 +37,40 @@
   padding: 10px;
 }
 
-.Navbar nav a:hover {
+.NavbarList a:hover {
   background-color: #555;
+}
+
+.fullScreenNavbar {
+  display: none;
 }
 
 @media screen and (min-width: 768px) {
 
+  .mobileNavbar {
+    display: none;
+  }
+
+  .fullScreenNavbar {
+    display: inline;
+  }
+
   /* TODO - הנאובר לא יפה כשהמסך גדול לחשוב על משהו אחר */
-  .Navbar {
+  .NavbarList {
     display: block;
     margin: 0 auto;
   }
 
-  .Navbar nav ul {
+  .NavbarList {
     display: flex;
     justify-content: space-around;
   }
 
-  .Navbar nav li {
+  .NavbarList li {
     flex-grow: 1;
   }
-}
 
+  .Hamburger {
+    display: none;
+  }
+}

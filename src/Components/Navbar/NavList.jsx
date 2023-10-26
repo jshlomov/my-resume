@@ -1,14 +1,10 @@
 import React, { useState, useEffect } from "react";
-import ContactDetails from '../contactDetails/contactDetails'
-import { Link } from "react-router-dom";
+import ContactDetails from "../contactDetails/contactDetails";
 
 const NavList = (props) => {
-
   return (
-    <div className="Navbar" /*style={{display: !props.open? "block" : "none"}}*/>
-      <nav>
-        <ul>
-        <li>
+        <ul className="NavbarList">
+          <li>
             <a href="">About me</a>
           </li>
           <li>
@@ -24,8 +20,6 @@ const NavList = (props) => {
             <a href="">Contact details</a>
           </li>
         </ul>
-      </nav>
-    </div>
   );
 };
 
