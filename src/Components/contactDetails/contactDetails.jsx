@@ -4,6 +4,7 @@ import mailPic from "../../imgs/icons8-mail-48.png";
 import phonePic from "../../imgs/icons8-whatsapp-48.png";
 import linkedInPic from "../../imgs/icons8-linkedin-48.png";
 import githubPic from "../../imgs/icons8-github-50.png";
+import Header from "../Header/Header";
 
 function ContactDetails(props) {
   const linkedinLink = "https://www.linkedin.com/in/jonatan-shlomov/";
@@ -12,8 +13,9 @@ function ContactDetails(props) {
   const mailLink = "mailto:jonatanshv@gmail.com";
 
   return (
-    <div className="wrapper bgColorOne fontColorOne">
-      <div className="wrapperCards">
+    <div className="contactWrapper bgColorOne fontColorOne cardSizesAndFlex">
+      <Header header="Lets Conect" />
+      <div className="contactWrapperCards">
         <ContactDetailsCard
           title="Gmail: jonatanshv@gmail.com"
           imge={mailPic}

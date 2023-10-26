@@ -1,10 +1,8 @@
-.wrapper {
-  display: flex;
-  padding: 25px;
-  justify-content: center;
+.contactWrapper {
+  align-items: center;
 }
 
-.wrapper .wrapperCards {
+.contactWrapper .contactWrapperCards {
   display: flex;
   flex-wrap: wrap;
   padding: 10px;

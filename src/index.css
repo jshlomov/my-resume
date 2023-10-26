@@ -4,6 +4,13 @@
   margin: 0;
 }
 
+.cardSizesAndFlex {
+  display: flex;
+  padding: 25px;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
 .bgColorOne {
   background: rgb(151, 144, 151);
   background: linear-gradient(

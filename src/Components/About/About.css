@@ -1,9 +1,5 @@
 .About {
-  min-height: 600px;
-  padding-top: 400px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  padding-top: 350px;
   align-items: center;
 }
 
@@ -12,10 +8,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-.About .Container h1 {
-  font-size: 42px;
 }
 
 .About .Container p {
@@ -42,15 +34,13 @@
 
 @media screen and (min-width: 1200px) {
   .About {
-    display: block;
     padding-top: 150px;
     position: relative;
+    align-items: start;
   }
 
   .About .Container {
-    display: block;
-    position: absolute;
-    left: 10%;
+    padding-left: 10%;
   }
 
   .About .Container p {

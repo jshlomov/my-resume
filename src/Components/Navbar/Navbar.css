@@ -9,7 +9,7 @@
   text-align: center;
   background-color: #333;
   color: #fff;
-  padding: 15px 0;
+  padding: 15px 0 20px 0;
   opacity: 0.95;
 }
 
@@ -42,6 +42,8 @@
 }
 
 @media screen and (min-width: 768px) {
+
+  /* TODO - הנאובר לא יפה כשהמסך גדול לחשוב על משהו אחר */
   .Navbar {
     display: block;
     margin: 0 auto;

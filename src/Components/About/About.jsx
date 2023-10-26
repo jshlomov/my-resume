@@ -1,12 +1,13 @@
 import "./About.css";
 import myPicture from "../../imgs/myPicWithoutBG2.png";
 import React from "react";
+import Header from "../Header/Header";
 
 function About() {
   return (
-    <div className="About bgColorOne">
+    <div className="About fontColorOne bgColorOne cardSizesAndFlex">
+      <Header header="About" />
       <div className="Container">
-        <h1 className="fontColorOne">Welcome!</h1>
         <p>
           Hello, and welcome to my corner of the internet! I am Yonatan Shlomov,
           a final year computer science student with a passion for technology,
