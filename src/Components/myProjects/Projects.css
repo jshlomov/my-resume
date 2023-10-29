@@ -1,10 +1,6 @@
-.Projects {
-
-}
 
 .ProjectsWrapper {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-  padding: 4%;
 }

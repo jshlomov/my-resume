@@ -6,6 +6,7 @@ import linkedInPic from "../../imgs/icons8-linkedin-48.png";
 import githubPic from "../../imgs/icons8-github-50.png";
 import Header from "../Header/Header";
 
+
 function ContactDetails(props) {
   const linkedinLink = "https://www.linkedin.com/in/jonatan-shlomov/";
   const githubLink = "https://github.com/jshlomov";
@@ -33,6 +34,7 @@ function ContactDetails(props) {
         />
         <ContactDetailsCard title="GitHub" imge={githubPic} link={githubLink} />
       </div>
+
     </div>
   );
 }

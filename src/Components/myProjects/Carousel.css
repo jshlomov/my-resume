@@ -1,0 +1,8 @@
+.wrapperCarousel {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapperCarousel .carousel {
+    flex-basis: 1000px;
+}
