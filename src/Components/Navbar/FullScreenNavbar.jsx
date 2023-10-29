@@ -2,10 +2,10 @@ import React from "react";
 import NavList from "./NavList";
 import './Navbar.css';
 
-function FullScreenNavbar() {
+function FullScreenNavbar(props) {
   return (
     <div className="fullScreenNavbar">
-      <NavList />
+      <NavList/>
     </div>
   );
 }

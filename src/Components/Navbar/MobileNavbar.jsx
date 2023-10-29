@@ -2,10 +2,10 @@ import React from "react";
 import NavList from "./NavList";
 import './Navbar.css';
 
-function MobileNavbar() {
+function MobileNavbar(props) {
   return (
     <div className="mobileNavbar">
-      <NavList />
+      <NavList/>
     </div>
   );
 }

@@ -46,7 +46,7 @@ function Projects() {
 
   //TODO - לקצר את התיאורים ממש ארוך ויוצא מהריבוע
   return (
-    <div className="Projects bgColorTwo fontColorTwo cardSizesAndFlex">
+    <div id="Projects" className="Projects bgColorTwo fontColorTwo cardSizesAndFlex">
       <Header header="My Projects" />
       <div className="ProjectsWrapper">
         {myProjects.map((x, index) => {

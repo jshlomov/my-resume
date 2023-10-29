@@ -14,7 +14,7 @@ function ContactDetails(props) {
   const mailLink = "mailto:jonatanshv@gmail.com";
 
   return (
-    <div className="contactWrapper bgColorOne fontColorOne cardSizesAndFlex">
+    <div id="ContactDetails" className="contactWrapper bgColorOne fontColorOne cardSizesAndFlex">
       <Header header="Lets Conect" />
       <div className="contactWrapperCards">
         <ContactDetailsCard

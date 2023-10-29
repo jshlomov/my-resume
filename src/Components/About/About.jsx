@@ -5,7 +5,7 @@ import Header from "../Header/Header";
 
 function About() {
   return (
-    <div className="About fontColorOne bgColorOne cardSizesAndFlex">
+    <div id="About" className="About fontColorOne bgColorOne cardSizesAndFlex">
       <Header header="About" />
       <div className="Container">
         <p>
