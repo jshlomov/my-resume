@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import NavList from "./NavList";
 import { CgMenuRound } from "react-icons/cg";
 import { CgCloseO } from "react-icons/cg";
 import MobileNavbar from "./MobileNavbar";
 import FullScreenNavbar from "./FullScreenNavbar";
+import NavList from "./NavList";
 
 function Navbar() {
 
@@ -33,7 +33,7 @@ function Navbar() {
         Yonatan Shlomov
         {!open ? HamburgerIcon : CloseIcon}
       </header>
-      {open && <MobileNavbar />}
+      {open && <MobileNavbar cl={() => setOpen(!open)} />}
       <FullScreenNavbar /> {/* only in ful screen */}
     </div>
   );

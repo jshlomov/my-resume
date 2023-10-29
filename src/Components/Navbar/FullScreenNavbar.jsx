@@ -5,7 +5,7 @@ import './Navbar.css';
 function FullScreenNavbar(props) {
   return (
     <div className="fullScreenNavbar">
-      <NavList/>
+      <NavList cl={props.cl}/>
     </div>
   );
 }

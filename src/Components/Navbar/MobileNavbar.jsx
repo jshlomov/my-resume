@@ -5,7 +5,7 @@ import './Navbar.css';
 function MobileNavbar(props) {
   return (
     <div className="mobileNavbar">
-      <NavList/>
+      <NavList cl={props.cl}/>
     </div>
   );
 }

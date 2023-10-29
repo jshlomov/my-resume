@@ -5,19 +5,19 @@ const NavList = (props) => {
   return (
         <ul className="NavbarList">
           <li>
-            <a href="#About">About me</a>
+            <a href="#About" onClick={props.cl} >About me</a>
           </li>
           <li>
-            <a href="">Education</a>
+            <a href="" onClick={props.cl}>Education</a>
           </li>
           <li>
-            <a href="#Projects">Projects</a>
+            <a href="#Projects" onClick={props.cl}>Projects</a>
           </li>
           <li>
-            <a href="">Skills & Abilities</a>
+            <a href="" onClick={props.cl}>Skills & Abilities</a>
           </li>
           <li>
-            <a href="#ContactDetails">Contact details</a>
+            <a href="#ContactDetails" onClick={props.cl}>Contact details</a>
           </li>
         </ul>
   );
