@@ -3,6 +3,7 @@ import Navbar from './Navbar/Navbar';
 import ContactDetails from './contactDetails/contactDetails';
 import About from './About/About';
 import Projects from './myProjects/Projects';
+import LogoAndC from './LogoAndC/LogoAndC';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <About />
       <Projects />
       <ContactDetails />
+      <LogoAndC />
     </div>
   );
 }

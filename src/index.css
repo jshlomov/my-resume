@@ -6,7 +6,7 @@
 
 .cardSizesAndFlex {
   display: flex;
-  padding: 25px;
+  padding: 15px;
   justify-content: space-around;
   flex-direction: column;
 }

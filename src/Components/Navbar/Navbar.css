@@ -46,7 +46,6 @@
 }
 
 @media screen and (min-width: 768px) {
-
   .mobileNavbar {
     display: none;
   }
@@ -72,5 +71,19 @@
 
   .Hamburger {
     display: none;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  /*מקרה קצה של פלאפון ההמבורגר עולה על הכותרת אז הקטהתי והזזתי את הבורגר */
+
+  .NavContainer header {
+    font-size: 30px;
+  }
+
+  .Hamburger {
+    position: absolute;
+    top: 16px;
+    right: 2%;
   }
 }

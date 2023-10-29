@@ -1,9 +1,9 @@
 .ProCardContainer {
-  height: 450px;
+  height: 300px;
   position: relative;
-  flex-basis: 450px;
-  /* flex-grow: 1; */
-  margin: 20px;
+  flex-basis: 400px;
+  margin: 10px;
+  flex-grow: 1;
 }
 
 .ProCardContainer .bgImage {
@@ -53,5 +53,11 @@
   font-size: 20px;
 }
 
-@media screen and (max-width: 768px) { 
+@media screen and (min-width: 768px) {
+  .ProCardContainer {
+    height: 400px;
+    flex-basis: 400px;
+    margin: 20px;
+    flex-grow: 1;
+  }
 }
